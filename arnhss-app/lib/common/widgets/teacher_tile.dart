@@ -23,7 +23,6 @@ class TeacherTile extends StatelessWidget {
           borderRadius: BorderRadius.circular(5),
           border: Border.all(
             width: isSelected ? 1.5 : 0,
-            strokeAlign: StrokeAlign.outside,
             color: CustomColors.dark.withOpacity(isSelected ? .2 : .0),
           ),
         ),
